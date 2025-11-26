@@ -1,0 +1,13 @@
+# Normalize line endings
+* text=auto
+
+# C source files
+*.c text
+*.h text
+
+# Markdown files
+*.md text
+
+# Use LF always for C files (bom para evitar bugs no Windows)
+*.c eol=lf
+*.h eol=lf

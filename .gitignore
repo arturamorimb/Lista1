@@ -1,0 +1,31 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.so
+*.dll
+*.dylib
+
+# Compiled static libraries
+*.lib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Precompiled headers
+*.gch
+
+# Debug files
+*.dSYM/
+*.pdb
+
+# VSCode config
+.vscode/
+
+# Backup files
+*~
+*.bak
