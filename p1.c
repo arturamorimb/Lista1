@@ -10,7 +10,7 @@ int main(){
     printf("Valor de b:");
     scanf("%f", &b);
 
-    media = ((a*3.5)+(b*7.5))/11;
+    media = ((a * 3.5) + (b * 7.5)) / 11;
 
     printf("MEDIA = %.5f", media);
 

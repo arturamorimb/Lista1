@@ -2,16 +2,16 @@
 
 int main(){
 
-    int n, hora, minuto, segundo;
+    int n, segundos, minutos, horas;
 
-    printf("Valor em segundos:");
+    printf("Digite o total de segundos:");
     scanf("%d", &n);
 
-    minuto = n/60;
-    hora = minuto/60;
-    segundo = n-hora*3600-minuto*60;
+    horas = (n/3600);
+    minutos = (n-(3600*horas))/60;
+    segundos = (n-(3600*horas)-(60*minutos));
 
-    printf("%d:%d:%d", hora, minuto, segundo);
+    printf("%d:%d:%d", horas, minutos, segundos);
 
     return 0;
 }
